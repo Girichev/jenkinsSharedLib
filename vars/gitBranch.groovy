@@ -1,3 +1,3 @@
 def call() {
-    return GIT_BRANCH
+    echo env.dump()
 }
